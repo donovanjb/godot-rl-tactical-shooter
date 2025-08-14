@@ -1,16 +1,8 @@
 
-# Godot RL Agents
+# Project Overview
 
-This repository contains the Godot 4 asset / plugin for the Godot RL Agents library, you can find out more about the library on its Github page [here](https://github.com/edbeeching/godot_rl_agents).
+Inspired by OpenAI's Hide-and-Seek [paper](https://doi.org/10.48550/arXiv.1909.07528), we sought to train teams of agents to play tactical 5v5 shooters (e.g. Valorant, CS:GO). Turns out, training takes compute power that we didn't have on our personal laptops. We narrowed the scope and instead applied what we learned from class to the Godot environment, with the help of Ed Beeching's Godot RL Agents toolkit (after determining that our laptops could not run Unity efficiently either).
 
-The Godot RL Agents is a fully Open Source package that allows video game creators, AI researchers and hobbyists the opportunity to learn complex behaviors for their Non Player Characters or agents. 
-This libary provided this following functionaly:
-* An interface between games created in the [Godot Engine](https://godotengine.org/) and Machine Learning algorithms running in Python
-* Wrappers for three well known rl frameworks: StableBaselines3, Sample Factory and [Ray RLLib](https://docs.ray.io/en/latest/rllib-algorithms.html)
-* Support for memory-based agents, with LSTM or attention based interfaces
-* Support for 2D and 3D games
-* A suite of AI sensors to augment your agent's capacity to observe the game world
-* Godot and Godot RL Agents are completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. 
+To run the Godot files and replicate the training yourself, I'd recommend first going through tutorial projects on the Godot RL Agents Github page [here](https://github.com/edbeeching/godot_rl_agents). If you'd like a glimpse at what we were able to accomplish, our final report is included as well.
 
-You can find out more about Godot RL agents in our AAAI-2022 Workshop [paper](https://arxiv.org/abs/2112.03636).
-
+Overall, we were happy to apply the theory we had learned in class to a custom game, albeit not to the fullest extent we had hoped for.
